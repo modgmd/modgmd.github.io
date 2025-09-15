@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1c2337;
+  color: #e5eaf6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #232a43;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: #8ba6ff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background: #293154;
+  color: #e5eaf6;
+}
+
+main {
+  max-width: 700px;
+  margin: 2em auto;
+  background: #222944;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(28,35,55,0.13);
+}
+
+h1, h2 {
+  color: #8ba6ff;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #293154;
+  object-fit: cover;
+}
+
+.btn {
+  background: #8ba6ff;
+  color: #1c2337;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #5e7de7;
+  color: #e5eaf6;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  background: #232a43;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid #293154;
+}
